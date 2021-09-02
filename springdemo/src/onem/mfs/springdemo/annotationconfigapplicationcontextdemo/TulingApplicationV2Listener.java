@@ -5,10 +5,10 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 
 @Component
-public class TulingApplicationListener implements ApplicationListener {
+public class TulingApplicationV2Listener implements ApplicationListener {
     @Override
     public void onApplicationEvent(ApplicationEvent event) {
 
-        System.out.println("我接受到了一个事件"+event.getSource());
+        System.out.println("V2 我接受到了一个事件"+event.getSource());
     }
 }

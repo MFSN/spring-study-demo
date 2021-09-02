@@ -20,6 +20,8 @@
       <root url="jar://$PROJECT_DIR$/springdemo/lib/spring-beans-5.2.3.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/springdemo/lib/spring-orm-5.2.3.RELEASE.jar!/" />
+    </SOURCES>
   </library>
 </component>
